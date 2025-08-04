@@ -7,17 +7,20 @@ Este módulo é teórico e introdutório. Ele apresenta os fundamentos que guiar
 ## 📚 Aulas do Módulo
 
 ### 1. Introdução ao Treinamento
+
 - Visão geral da formação.
 - Objetivos do curso e o que será aprendido.
 - Metodologia de ensino aplicada pela AlgaWorks.
 
 ### 2. Por que Desenvolver API REST?
+
 - Conceito de APIs RESTful.
 - Importância no mercado moderno.
 - Exemplos de aplicações reais utilizando APIs.
 - Benefícios: reusabilidade, escalabilidade, integração entre sistemas.
 
 ### 3. Preparando o Ambiente de Desenvolvimento
+
 - Instalação do **JDK 17**.
 - Instalação e configuração do **IntelliJ IDEA** (versão recomendada: Ultimate ou Community).
 - Explicação sobre o uso do **Maven**.
@@ -37,6 +40,7 @@ Este módulo é teórico e introdutório. Ele apresenta os fundamentos que guiar
 Este repositório será utilizado para organizar e versionar os projetos de cada módulo do curso, com foco em boas práticas, código limpo e documentação clara.
 
 Cada módulo terá sua própria pasta contendo:
+
 - Código-fonte
 - `README.md` explicativo
 - Scripts ou arquivos auxiliares
