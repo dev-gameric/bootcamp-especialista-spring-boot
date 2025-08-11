@@ -1,4 +1,4 @@
-package com.algaworks.aulas.modulo2.aula_2_7_meu_primeiro_controller;
+package com.algaworks.aulas.modulo2.aula7;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
