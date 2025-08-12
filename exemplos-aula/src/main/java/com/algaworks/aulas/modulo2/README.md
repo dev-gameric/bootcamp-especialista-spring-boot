@@ -25,36 +25,36 @@
 
 ## 📝 Conteúdo Programático
 
-| Aula  | Título da Aula                           | Descrição Breve                                 |
-|-------|-------------------------------------------|--------------------------------------------------|
-| 2.1   | Por que aprender e usar Spring            | Contexto e vantagens do Spring                  |
-| 2.2   | Conhecendo o ecossistema Spring           | Módulos mais usados e como se integram          |
-| 2.3   | Spring vs Jakarta EE                      | Comparativo entre os dois frameworks            |
-| 2.4   | Conhecendo o Spring Boot                  | Objetivos e benefícios do Spring Boot           |
-| 2.5   | Criando um projeto com Spring Initializr  | Geração de projeto e estrutura base             |
-| 2.6   | Conhecendo Maven e pom.xml                | Gerenciamento de dependências no projeto        |
-| 2.7   | Criando um controller com Spring MVC      | Criação de endpoints REST                       |
-| 2.8   | DevTools e reinicialização automática     | Melhoria na experiência de desenvolvimento      |
-| 2.9   | O que é Injeção de Dependências           | Conceito e importância de DI                    |
-| 2.10  | IoC Container do Spring                   | Funcionamento interno do contêiner              |
-| 2.11  | Definindo beans com @Component            | Criação automática de beans                     |
-| 2.12  | Injetando dependências                    | Formas de injeção no Spring                     |
-| 2.13  | @Configuration e @Bean                    | Definindo beans manualmente                     |
-| 2.14  | Pontos de injeção e @Autowired            | Campo, setter e construtor                      |
-| 2.15  | Dependência opcional com @Autowired       | Evitando erros com dependência ausente          |
-| 2.16  | Ambiguidade e injeção de lista de beans   | Injetando múltiplos beans                       |
-| 2.17  | Desambiguação com @Primary                | Definindo bean padrão                           |
-| 2.18  | Desambiguação com @Qualifier              | Especificando qual bean injetar                 |
-| 2.19  | Anotações customizadas                    | Criando qualifiers próprios                     |
-| 2.20  | Spring Profiles                           | Comportamentos diferentes por ambiente          |
-| 2.21  | Ciclo de vida dos beans                   | Métodos de inicialização e destruição           |
-| 2.22  | Eventos customizados no Spring            | Criando e escutando eventos                     |
-| 2.23  | Configurando com application.properties   | Centralizando configurações                     |
-| 2.24  | Substituindo propriedades externamente    | Linha de comando e variáveis de ambiente        |
-| 2.25  | Propriedades customizadas com @Value      | Injetando valores do arquivo de propriedades    |
-| 2.26  | @ConfigurationProperties                  | Mapeando configurações em classes               |
-| 2.27  | Arquivos por perfil                       | application-dev.properties, etc.                |
-| 2.28  | Ativando profiles externamente            | Argumentos e variáveis para ativar profiles     |
+| Aula | Título da Aula                           | Descrição Breve                              |
+|------|------------------------------------------|----------------------------------------------|
+| 2.1  | Por que aprender e usar Spring           | Contexto e vantagens do Spring               |
+| 2.2  | Conhecendo o ecossistema Spring          | Módulos mais usados e como se integram       |
+| 2.3  | Spring vs Jakarta EE                     | Comparativo entre os dois frameworks         |
+| 2.4  | Conhecendo o Spring Boot                 | Objetivos e benefícios do Spring Boot        |
+| 2.5  | Criando um projeto com Spring Initializr | Geração de projeto e estrutura base          |
+| 2.6  | Conhecendo Maven e pom.xml               | Gerenciamento de dependências no projeto     |
+| 2.7  | Criando um controller com Spring MVC     | Criação de endpoints REST                    |
+| 2.8  | DevTools e reinicialização automática    | Melhoria na experiência de desenvolvimento   |
+| 2.9  | O que é Injeção de Dependências          | Conceito e importância de DI                 |
+| 2.10 | IoC Container do Spring                  | Funcionamento interno do contêiner           |
+| 2.11 | Definindo beans com @Component           | Criação automática de beans                  |
+| 2.12 | Injetando dependências                   | Formas de injeção no Spring                  |
+| 2.13 | @Configuration e @Bean                   | Definindo beans manualmente                  |
+| 2.14 | Pontos de injeção e @Autowired           | Campo, setter e construtor                   |
+| 2.15 | Dependência opcional com @Autowired      | Evitando erros com dependência ausente       |
+| 2.16 | Ambiguidade e injeção de lista de beans  | Injetando múltiplos beans                    |
+| 2.17 | Desambiguação com @Primary               | Definindo bean padrão                        |
+| 2.18 | Desambiguação com @Qualifier             | Especificando qual bean injetar              |
+| 2.19 | Anotações customizadas                   | Criando qualifiers próprios                  |
+| 2.20 | Spring Profiles                          | Comportamentos diferentes por ambiente       |
+| 2.21 | Ciclo de vida dos beans                  | Métodos de inicialização e destruição        |
+| 2.22 | Eventos customizados no Spring           | Criando e escutando eventos                  |
+| 2.23 | Configurando com application.properties  | Centralizando configurações                  |
+| 2.24 | Substituindo propriedades externamente   | Linha de comando e variáveis de ambiente     |
+| 2.25 | Propriedades customizadas com @Value     | Injetando valores do arquivo de propriedades |
+| 2.26 | @ConfigurationProperties                 | Mapeando configurações em classes            |
+| 2.27 | Arquivos por perfil                      | application-dev.properties, etc.             |
+| 2.28 | Ativando profiles externamente           | Argumentos e variáveis para ativar profiles  |
 
 ---
 
@@ -248,10 +248,10 @@
 
 ## 💻 Exemplos de Código
 
-| Aula  | Caminho                          | Descrição do Exemplo                        |
-|-------|----------------------------------|---------------------------------------------|
-| 2.7   | [aula_2_7_meu_primeiro_controller](https://github.com/dev-gameric/bootcamp-especialista-spring-boot/tree/exemplos-aula/algafood-api/src/main/java/com/algaworks/aulas/modulo2/aula_2_7_meu_primeiro_controller) | Exemplo básico de controller com Spring MVC |
-| 2.9   | aulas/modulo-02/2.09-injecao-dependencia | Demonstração de injeção de dependência     |
+| Aula | Caminho                                                                                                                                                                                                         | Descrição do Exemplo                        |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| 2.7  | [aula_2_7_meu_primeiro_controller](https://github.com/dev-gameric/bootcamp-especialista-spring-boot/tree/exemplos-aula/algafood-api/src/main/java/com/algaworks/aulas/modulo2/aula_2_7_meu_primeiro_controller) | Exemplo básico de controller com Spring MVC |
+| 2.9  | aulas/modulo-02/2.09-injecao-dependencia                                                                                                                                                                        | Demonstração de injeção de dependência      |
 
 ---
 
@@ -282,12 +282,12 @@
 
 ## 📊 Status do Módulo
 
-| Tarefa                          | Status       | Observações                   |
-|--------------------------------|--------------|------------------------------|
-| Documentação do módulo          | ✔ Concluído  |                              |
-| Exemplos implementados          | ✔ Concluído  |                              |
-| Revisão dos conceitos-chave     | Em andamento |                              |
-| Revisão final para provas/testes| Pendente     |                              |
+| Tarefa                           | Status       | Observações |
+|----------------------------------|--------------|-------------|
+| Documentação do módulo           | ✔ Concluído  |             |
+| Exemplos implementados           | ✔ Concluído  |             |
+| Revisão dos conceitos-chave      | Em andamento |             |
+| Revisão final para provas/testes | Pendente     |             |
 
 ---
 
